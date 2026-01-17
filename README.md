@@ -1,42 +1,18 @@
-# chatbot-gemini
-Full-stack AI text generation app using Spring Boot, React.js, and Google Gemini API.
+# React + Vite
 
-# Chatbot Platform using Gemini API
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
-This project is a project-based chatbot platform that allows users to create AI
-chatbot projects and interact with them using Google's Gemini API.
+Currently, two official plugins are available:
 
-## Features
-- Create chatbot projects
-- Manage prompts per project
-- Chat interface with real-time AI responses
-- Project-wise chat history
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Tech Stack
-- Frontend: React JS
-- Backend: Spring Boot
-- AI Service: Google Gemini API
+## React Compiler
 
-## Architecture
-The system follows a client–server architecture where the React frontend
-communicates with the Spring Boot backend, which integrates with the Gemini API.
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## How to Run
+Note: This will impact Vite dev & build performances.
 
-### Backend
-1. Clone the repository
-2. Open backend folder
-3. Add Gemini API key in `application.properties`
-4. Run Spring Boot application
+## Expanding the ESLint configuration
 
-### Frontend
-1. Open frontend folder
-2. Run `npm install`
-3. Run `npm start`
-
-## Future Enhancements
-- File upload support
-- Multi-language chatbot
-- Analytics dashboard
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
